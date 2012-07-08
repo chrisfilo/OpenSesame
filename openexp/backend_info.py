@@ -54,10 +54,7 @@ psycho = {
 backend_list = {}
 backend_list["legacy"] = legacy
 backend_list["opengl"] = opengl
-
-# So far, the psycho back-end doesn't work on Mac OS (darwin)
-if sys.platform != "darwin":
-	backend_list["psycho"] = psycho
+backend_list["psycho"] = psycho
 
 def match(experiment):
 
