@@ -52,9 +52,9 @@ class qtopensesame(QtGui.QMainWindow):
 		"""Resume GUI initialization"""
 
 		from libopensesame import misc
-		from libqtopensesame.widgets import pool_widget
+		from libqtopensesame.widgets import pool_widget, statusbar
 		from libqtopensesame.ui import opensesame_ui
-		from libqtopensesame.misc import  theme
+		from libqtopensesame.misc import theme
 		import platform
 
 		# Setup the UI
